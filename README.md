@@ -10,7 +10,7 @@
 <span><img src='https://i.imgtg.com/2023/05/26/Oau9CD.png' height='250px' weight='250px'></span>
 ****
 # 专业课作业
-## [PS](https://github.com/lizhiLX/Homework/tree/main/PS)
+## [Photoshop](https://github.com/lizhiLX/Homework/tree/main/PS)
 >>>[2023.5.26](PS/2023.5.26)
 ## [MySql](https://github.com/lizhiLX/Homework/tree/main/MySql)
 >>>[2023.5.26](MySql/2023.5.26)
