@@ -16,5 +16,6 @@
 >>>[2023.5.26](MySql/2023.5.26)
 ## [Java](https://github.com/lizhiLX/Homework/tree/main/Java)
 >>>[2023.5.26](Java/2023.5.26/2023.5.26.md)
+>>>[序列化2023.5.27](Java/序列化2023.5.27)
 ****
   <span><img src='https://i.imgtg.com/2023/05/26/Oau2nF.png'></span>
