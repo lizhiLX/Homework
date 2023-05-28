@@ -10,11 +10,11 @@
 <span><img src='https://i.imgtg.com/2023/05/26/Oau9CD.png' height='250px' weight='250px'></span>
 ****
 # 专业课作业
-## [Photoshop](https://github.com/lizhiLX/Homework/tree/main/PS)
+## [Photoshop](Photoshop)
 >[2023.5.26](PS/2023.5.26)
-## [MySql](https://github.com/lizhiLX/Homework/tree/main/MySql)
+## [MySql](MySql)
 >[2023.5.26](MySql/2023.5.26)
-## [Java](https://github.com/lizhiLX/Homework/tree/main/Java)
+## [Java](Java)
 >[2023.5.26](Java/2023.5.26/2023.5.26.md)  
 >[序列化2023.5.27](Java/序列化2023.5.27)
 ****
