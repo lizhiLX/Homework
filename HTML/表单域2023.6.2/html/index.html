@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w
+        {
+            margin: 0 auto;
+            width: 800px;
+        }
+        .w h2
+        {
+            height: 40px;
+            border-bottom: 1px solid #CBCBCC;
+            line-height: 40px;
+            text-align: center;
+        }
+        .w h4
+        {
+            color: red;
+        }
+        .w .box table 
+        {
+            margin: 0 auto;
+        }
+        .w .box table tr td:nth-child(1)
+        {
+            text-align: right;
+        }
+        .w .box table tr td
+        {
+            padding-top:10px;
+        }
+        .w .box table tr td input[type='text']
+        {
+            width: calc(100% - 10px);
+        }
+        .w ul li
+        {
+            list-style: none;
+            float: left;
+            margin-left: 0px;
+        }
+        .w ul li input
+        {
+            height: 30px;
+            width: 60px;
+            background-color: #111AB5;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        }
+        .w ul
+        {
+            margin-left: 200px;
+        }
+        .w ul li:nth-child(1)
+        {
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="w">
+        <h2>
+            学生注册信息
+        </h2>
+        <h4>请注意:带*的项必须填写</h4>
+        <div class="box">
+            <form action="">
+                <table>
+                    <tr>
+                        <td>昵称：</td>
+                        <td>*</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>(6~8个字符，由字母、数字下划线组成)</td>
+                    </tr>
+                    <tr>
+                        <td>手机：</td>
+                        <td>*</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>姓名：</td>
+                        <td>*</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>(要填真实姓名，只能输入汉字)</td>
+                    </tr>
+                    <tr>
+                        <td>性别：</td>
+                        <td></td>
+                        <td>
+                            <input type="radio" name="sex" id="sex"><span>男</span>
+                            <input type="radio" name="sex" id="sex"><span>女</span>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>年龄：</td>
+                        <td></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td>(年龄要介于18~100岁)</td>
+                    </tr>
+                    <tr>
+                        <td>出生日期：</td>
+                        <td></td>
+                        <td><input type="date" name="" id=""></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>电子邮箱：</td>
+                        <td></td>
+                        <td><input type="text" name="" id=""></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>身份证号：</td>
+                        <td>*</td>
+                        <td><input type="text" name="" id=""></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>籍贯：</td>
+                        <td></td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">山东省</option>
+                                <option value="">河北省</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>爱好：</td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox"><span>音乐</span>
+                            <input type="checkbox"><span>上网</span>
+                            <input type="checkbox"><span>看电影</span>
+                            <input type="checkbox"><span>下棋</span>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>喜欢的颜色：</td>
+                        <td></td>
+                        <td><input type="color" name="" id=""></td>
+                        <td>(请选择你喜欢的颜色)</td>
+                    </tr>
+                </table>
+                <ul>
+                    <li>
+                        <input type="submit">
+                    </li>
+                    <li>
+                        <input type="reset" name="" id="">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
