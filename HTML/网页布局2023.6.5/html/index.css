@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li
+{
+    list-style: none;
+}
+header
+{
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: gray;
+}
+nav
+{
+    background-color: rgb(136, 136, 255);
+    height: 50px;
+}
+.content
+{
+    margin: 0 auto;
+    height: 400px;
+    width: 1200px;
+    margin-top: 20px;
+}
+.content .banner
+{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+}
+.content .news
+{
+    float: right;
+    height: 300px;
+    width: 790px;
+    background-color: gray;
+}
+.content .banner1
+{
+    float: right;
+    margin-top: 10px;
+    width: 790px;
+    height: 90px;
+    background-color: gray;
+}
+.box
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 610px;
+    width: 1200px;
+}
+.box .notice
+{
+    float: left;
+    height: 400px;
+    width: 595px;
+    background-color: gray;
+}
+.box .trend
+{
+    float: right;
+    height: 400px;
+    width: 595px;
+    background-color: gray;
+}
+.box .image1
+{
+    float: left;
+    margin-top: 10px;
+    height: 200px;
+    width: 595px;
+    background-color: gray;
+}
+.box .image2
+{
+    float: right;
+    margin-top: 10px;
+    height: 200px;
+    width: 595px;
+    background-color: gray;
+}
+.link
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1200px;
+    height: 100px;
+}
+.link ul li
+{
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+    width: 393px;
+    background-color: gray;
+}
+.link ul li:last-of-type
+{
+    margin-right: 0;
+}
+.video
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1200px;
+    height: 30px;
+    background-color: gray;
+}
+.link1
+{
+
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1200px;
+    background-color: gray;
+}
+footer
+{
+    margin-top: 10px;
+    height: 60px;
+    background-color: rgb(136, 136, 255);
+}
