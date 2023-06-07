@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            perspective: 500px;
+        }
+        .box .content
+        {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            transform-style: preserve-3d;
+            transform: rotateX(0deg);
+            transition: all 1s;
+            
+        }
+        .box .content img
+        {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .box .content .a
+        {
+            backface-visibility: hidden;
+        }
+        .box:hover .content
+        {
+            transform: rotateX(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+            <img src="f.png" alt="">
+            <img src="g.png" alt="" class="a">
+        </div>
+        
+    </div>
+</body>
+</html>
